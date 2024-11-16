@@ -20,3 +20,5 @@ let state = null
 // object 
 
 console.log(typeof "Ritesh");
+
+// read MDN and ECMA docs for better understandings 
