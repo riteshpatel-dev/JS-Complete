@@ -32,11 +32,11 @@ const myFunction = function () {
     console.log("Hello World");
 }
 
-console.log(typeof myFunction); // => function
+//console.log(typeof myFunction); // => function
 
 
 
-// read
+// read *visit link **ecma 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 // atleast read this :
@@ -52,4 +52,29 @@ console.log(typeof myFunction); // => function
 // Object        | (native or host and does implement [[Call]])	"function"
 // Object        | (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 
-// ** source => ecma docs
+// ** source => ecma  **i've provided the link
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap(Non-Primitive)
+
+let myName = "riteshpatel"
+let anothername = myName  
+anothername = "ritesh"
+
+console.log(anothername);
+console.log(myName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "ritesh@xyz.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// read mdn and ecma for better understanding 
